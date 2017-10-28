@@ -29,3 +29,17 @@ Solved exercicies of the amazing K&R's book.
     - [1-22](./cap1/1-22.c): Write a program to "fold" long input lines into two or more shorter lines after the last non-blank character that occurs before the `n`-th column of input. Make sure your program does something intelligent with very long lines, and if there are no blanks or tabs before the specified column.
     - [1-23](./cap1/1-23.c): Write a program to remove all comments from a C program. Don't forget to handle quoted strings and character constants properly. C comments do not nest.
     - [1-24](./cap1/1-24.c): Write a program to check a C program for rudimentary syntax errors like unbalanced parentheses, brackets and braces. Don't forget about quotes, both single and double, escape sequences, and comments. (This program is hard if you do it in full generality.)
+
+
+2. **Chapter 2: Types, Operators and Expressions**
+    - [2-1](./cap2/2-1.c): Write a program to determine the ranges of `char`, `short`, `int`, and `long` variabls, both `signed` and `unsigned`, by printing appropriate values from standard headers and by direct computation. Harder if you compute them: determine the ranges of the various floating-point types.
+    - [2-2](./cap2/2-2.c): Write a loop equivalent to the for loop above without using `&&` or `||`.
+    - [2-3](./cap2/2-3.c): Write a function `htoi(s)`, which converts a string of hexadecimal digits (including an optional `0x` or `0X`) into its equivalent integer value. The allowable digits are 0 through 9, a through f, ans A through F.
+    - [2-4](./cap2/2-4.c): Write an alternative version of `squeeze(s1, s2)` that deletes each character in `s1` that matches any character in the string `s2`.
+    - [2-5](./cap2/2-5.c): Write the function `any(s1, s2)`, which returns the first location in a string `s1` where any character from `s2`. (The standard library function `strpbrk` does the same job but returns a pointer to the location.).
+    - [2-6](./cap2/2-6.c): Write a function `setbits(x,p,n,y)` that returns `x` with the `n` bits that begin at position `p` set to the rightmost `n` bits of `y`, leaving the other bits unchanged.
+    - [2-7](./cap2/2-7.c): Write a function `invert(x,p,n)` that returns `x` with the `n` bits that begin at position `p` inverted (i.e., 1 changed into 0 and vice versa), leaving the others unchanged.
+    - [2-8](./cap2/2-8.c): Write a function `rightrot(x,n)` that returns the value of the integer `x` rotated to the right by n bit positions.
+    - [2-9](./cap2/2-9.c): In a two's complement number system, `x &= (x-1)` deletes the rightmost 1-bit in x. Explain why. Use this observation to write a faster version of bitcount.
+    - [2-10](./cap2/2-10.c): Rewrite the function `lower`, which converts upper case letter to lower case, with a conditional expression instead of `if-else`.
+
