@@ -6,7 +6,7 @@ Solved exercicies of the amazing K&R's book.
 
 1. **Chapter 1: A Tutorial Introduction**
     - [1-1](./cap1/1-1.c): Run the `hello, world` program on your system. Experiment with leaving out parts of the program, to see what error messages you get.
-    - [1-2](./cap1/1-2.c): Experiment to find out waht happens when `prints`'s argument string contains `\c`, where `c` is some character not listed above.
+    - [1-2](./cap1/1-2.c): Experiment to find out what happens when `prints`'s argument string contains `\c`, where `c` is some character not listed above.
     - [1-3](./cap1/1-3.c): Modify the temperature conversion program to print a heading aboute the table.
     - [1-4](./cap1/1-4.c): Write a program to print the corresponding Celsius to Fahrenheit table.
     - [1-5](./cap1/1-5.c): Modify the temperature conversion program to print the table in reverse order, that is from 300 degrees to 0.
@@ -50,3 +50,18 @@ Solved exercicies of the amazing K&R's book.
     - [3-4](./cap3/3-4.c): In a two's complement number representation, our version of `itoa` does not handle the largest negative number, that is, the value of `n` equal to `-(2 to the power (wordsize - 1))`. Explain why not. Modify it to print that value correctly regardless of the machine on which it runs.
     - [3-5](./cap3/3-5.c): Write the function `itob(n,s,b)` that converts the integer `n` into a base b character representation in the string `s` . In particular, `itob(n,s,16)` formats n as a hexadecimal integer in `s`.
     - [3-6](./cap3/3-6.c): Write a version of `itoa` that accepts three arguments instead of two. The third argument is a minimum field width; the converted number must be padded with blanks on the left if necessary to make it wide enough.
+
+4. **Chapter 4: Functions and Program Structure**
+    - [4-1](./cap4/4-1.c): Write the function `strrindex(s,t)`, which returns the position of the rightmost occurrence of `t` in `s` , or -1 if there is none.
+    - [4-2](./cap4/4-2.c): Extend `atof` to handle scientific notation of the form `123.45e-6` where a floating-point number may be followed by e or E and an optionally signed exponent.
+    - [4-3](./cap4/4-3.c): Given the basic framework, it's straightforward to extend the calculator. Add the modulus ( `%` ) operator and provisions for negative numbers.
+    - [4-4](./cap4/4-4.c): Add commands to print the top element of the stack without popping, to duplicate it, and to swap the top two elements. Add a command to clear the stack.
+    - [4-5](./cap4/4-5.c): Add access to library functions like `sin`, `exp`, and `pow`. See `<math.h>` in Appendix B, Section 4.
+    - [4-6](./cap4/4-6.c): Add commands for handling variables. (It's easy to provide twenty-six variables with single-letter names.) Add a variable for the most recently printed value.
+    - [4-7](./cap4/4-7.c): Write a routine `ungets(s)` that will push back an entire string onto the input. Should `ungets` know about `buf` and `bufp`, or should it just use `ungetch` ?
+    - [4-8](./cap4/4-8.c): Suppose that there will never be more than one character of pushback. Modify `getch` and `ungetch` accordingly.
+    - [4.9](./cap4/4-9.c): Our `getch` and `ungetch` do not handle a pushed-back `EOF` correctly. Decide what their properties ought to be if an `EOF` is pushed back, then implement your design.
+    - [4-10](./cap4/4-10.c): An alternate organization uses `getline` to read an entire input line; this makes `getch` and `ungetch` unnecessary. Revise the calculator to use this approach.
+    - [4-11](./cap4/4-11.c): Modify `getop` so that it doesn't need to use `ungetch`. Hint: use an internal `static` variable.
+    - [4-12](./cap4/4-12.c): Adapt the ideas of `printd` to write a recursive version of `itoa`; that is, convert an integer into a string by calling a recursive routine.
+    - [4-13](./cap4/4-13.c): Write a recursive version of the function `reverse(s)`, which reverses the string `s` in place.
