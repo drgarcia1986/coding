@@ -40,3 +40,31 @@ HackerRank is the best place to learn and practice coding!
 ```
 
 - [C](C/day-1.c).
+
+## Day 2: Operators
+Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
+
+**Note**: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result!
+
+**Sample Input**
+```
+12.00
+20
+8
+```
+**Sample Output**
+```
+The total meal cost is 15 dollars.
+```
+
+- [C](C/day-2.c).
+
+## Day 3: Intro to Conditional Statements
+Given an integer, _N_, perform the following conditional actions:
+
+- If _N_ is odd, print Weird
+- If _N_ is even and in the inclusive range of 2 to 5, print Not Weird
+- If _N_ is even and in the inclusive range of 6 to 20, print Weird
+- If _N_ is even and greater than 20, print Not Weird
+
+- [C](C/day-3.c)
