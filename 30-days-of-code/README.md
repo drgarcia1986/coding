@@ -68,3 +68,14 @@ Given an integer, _N_, perform the following conditional actions:
 - If _N_ is even and greater than 20, print Not Weird
 
 - [C](C/day-3.c)
+
+## Day 4: Class vs. Instance
+Write a Person class with an instance variable, _age_, and a constructor that takes an integer, _initialAge_, as a parameter. The constructor must assign _initialAge_ to _age_  after confirming the argument passed as  is not negative; if a negative argument is passed as _intialAge_, the constructor should set _age_ to _0_ and print Age is not valid, setting age to 0.. In addition, you must write the following instance methods:
+
+- yearPasses() should increase the  instance variable by .
+- amIOld() should perform the following conditional actions:
+- If age < 13, print You are young..
+- If age >= 13 and age < 18, print You are a teenager..
+- Otherwise, print You are old..
+
+- [Go](Go/day4/main.go)
