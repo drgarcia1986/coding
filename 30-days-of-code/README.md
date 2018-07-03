@@ -79,3 +79,61 @@ Write a Person class with an instance variable, _age_, and a constructor that ta
 - Otherwise, print You are old..
 
 - [Go](Go/day4/main.go)
+
+## Day 5: Loops
+Given an integer, _n_, print its first _10_ multiples. Each multiple _n x i_ (where _1 < i < 10_) should be printed on a new line in the form: n x i = result.
+
+**Sample Input**
+```
+2
+```
+**Sample Output**
+```
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+```
+
+- [C](C/day-5.c)
+
+## Day 6: Let's Review
+Given a string, _S_, of length _N_ that is indexed from _0_ to _N - 1_, print its even-indexed and odd-indexed characters as _2_ space-separated strings on a single line (see the Sample below for more detail).
+
+**Note**: _0_ is considered to be an even index.
+
+**Sample Input**
+```
+2
+Hacker
+Rank
+```
+**Sample Output**
+```
+Hce akr
+Rn ak
+```
+
+- [C](C/day-6.c)
+
+## Day 7: Arrays
+Given an array, _A_, of _N_ integers, print _A_'s elements in reverse order as a single line of space-separated numbers.
+
+
+**Sample Input**
+```
+4
+1 4 3 2
+```
+**Sample Output**
+```
+2 3 4 1
+```
+
+- [C](C/day-7.c)
