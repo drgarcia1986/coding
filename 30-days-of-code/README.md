@@ -14,6 +14,7 @@ Hello, World.
 Welcome to 30 Days of Code!
 ```
 
+### Solutions
 - [C](C/day-0.c).
 
 ## Day 1: Data Types
@@ -39,6 +40,7 @@ is the best place to learn and practice coding!
 HackerRank is the best place to learn and practice coding!
 ```
 
+### Solutions
 - [C](C/day-1.c).
 
 ## Day 2: Operators
@@ -57,6 +59,7 @@ Given the meal price (base cost of a meal), tip percent (the percentage of the m
 The total meal cost is 15 dollars.
 ```
 
+### Solutions
 - [C](C/day-2.c).
 
 ## Day 3: Intro to Conditional Statements
@@ -67,6 +70,7 @@ Given an integer, _N_, perform the following conditional actions:
 - If _N_ is even and in the inclusive range of 6 to 20, print Weird
 - If _N_ is even and greater than 20, print Not Weird
 
+### Solutions
 - [C](C/day-3.c)
 
 ## Day 4: Class vs. Instance
@@ -78,6 +82,7 @@ Write a Person class with an instance variable, _age_, and a constructor that ta
 - If age >= 13 and age < 18, print You are a teenager..
 - Otherwise, print You are old..
 
+### Solutions
 - [Go](Go/day4/main.go)
 
 ## Day 5: Loops
@@ -101,6 +106,7 @@ Given an integer, _n_, print its first _10_ multiples. Each multiple _n x i_ (wh
 2 x 10 = 20
 ```
 
+### Solutions
 - [C](C/day-5.c)
 
 ## Day 6: Let's Review
@@ -120,6 +126,7 @@ Hce akr
 Rn ak
 ```
 
+### Solutions
 - [C](C/day-6.c)
 
 ## Day 7: Arrays
@@ -136,4 +143,30 @@ Given an array, _A_, of _N_ integers, print _A_'s elements in reverse order as a
 2 3 4 1
 ```
 
+### Solutions
 - [C](C/day-7.c)
+
+## Day 8: Dictionaries and Maps
+Given _n_ names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each _name_  queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for _name_ is not found, print _Not found_ instead.
+
+**Note**: Your phone book should be a Dictionary/Map/HashMap data structure.
+
+**Sample Input**
+```
+3
+sam 99912222
+tom 11122222
+harry 12299933
+sam
+edward
+harry
+```
+**Sample Output**
+```
+sam=99912222
+Not found
+harry=12299933
+```
+
+### Solutions
+- [Python](Python/day-8.py)
