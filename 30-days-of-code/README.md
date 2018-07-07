@@ -170,3 +170,33 @@ harry=12299933
 
 ### Solutions
 - [Python](Python/day-8.py)
+
+## Day 9: Recursion 3
+Write a factorial function that takes a positive integer, _n_ as a parameter and prints the result of _n!_ (_n_ factorial).
+
+**Sample Input**
+```
+3
+```
+**Sample Output**
+```
+6
+```
+
+### Solutions
+- [C](C/day-9.c)
+
+## Day 10: Binary Numbers
+Given a base-10 integer, _n_, convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in n's binary representation.
+
+**Sample Input**
+```
+13
+```
+**Sample Output**
+```
+2
+```
+
+#### Solutions
+- [C](C/day-10.c)

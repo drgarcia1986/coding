@@ -196,3 +196,33 @@ Given an array, of size _n_, reverse it.
 ```
 
 [source](./array-reversal.c)
+
+## Printing Tokens
+Given a sentence, _s_, print each word of the sentence in a new line.
+
+**Sample Input**
+```
+This is C
+```
+**Sample Output**
+```
+This
+is
+C
+```
+
+[source](./tokens.c)
+
+## Digit Frequency
+Given a string, _s_, consisting of alphabets and digits, find the frequency of each digit in the given string
+
+**Sample Input**
+```
+a11472o5t6
+```
+**Sample Output**
+```
+0 2 1 0 1 1 1 1 0 0
+```
+
+[source](./digit-frequency.c)
