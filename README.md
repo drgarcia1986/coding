@@ -9,3 +9,6 @@ A collection of code snippets based on books, exercises, and experiments.
 ## Books
 - [Computer Networking: A Top-Down Approach](/computer-networking-a-top-down-approach)
 - [The C Programming Language](/the-c-programming-language) WIP
+
+## Courses
+- [The Coding Interview Bootcamp: Algorithms + Data Structures](/the-coding-interview-bootcamp)
