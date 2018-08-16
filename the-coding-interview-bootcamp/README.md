@@ -28,3 +28,18 @@ palindrome("abba") is True
 palindrome("abcdefg") is False
 ```
 [solution](./palindrome.py)
+
+## Integer Reversal
+**Directions**
+Given an integer, return an integer that is the reverse
+ordering of numbers.
+
+**Examples**
+```python
+reverse_int(15) == 51
+reverse_int(981) == 189
+reverse_int(500) == 5
+reverse_int(-15) == -51
+reverse_int(-90) == -9
+```
+[solution](./int_reversal.py)

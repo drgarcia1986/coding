@@ -26,7 +26,7 @@ def reverse(s):
     - O(n) one line
     return reduce(lambda r, c: c + r, s)
     --------------
-    - O(n/2)
+    - O(n)
     """
     value = list(s)
     len_v = len(value)
