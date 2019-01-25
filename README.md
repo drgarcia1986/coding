@@ -1,11 +1,8 @@
 # Coding
 A collection of code snippets based on books, exercises, and experiments.
 
-## Practice
-- [30 days of code](/30-days-of-code)
-- [Hacker Rank - C](/hacker-rank-c)
-- [Problem Solving](/problem-solving)
-- [Socket Programming](/socket-programming)
+## Algorithms
+- [Sort](/algorithms/sort)
 
 ## Books
 - [Computer Networking: A Top-Down Approach](/computer-networking-a-top-down-approach)
@@ -13,3 +10,9 @@ A collection of code snippets based on books, exercises, and experiments.
 
 ## Courses
 - [The Coding Interview Bootcamp: Algorithms + Data Structures](/the-coding-interview-bootcamp)
+
+## Practice
+- [30 days of code](/30-days-of-code)
+- [Hacker Rank - C](/hacker-rank-c)
+- [Problem Solving](/problem-solving)
+- [Socket Programming](/socket-programming)
