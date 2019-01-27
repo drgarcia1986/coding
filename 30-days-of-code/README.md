@@ -200,3 +200,45 @@ Given a base-10 integer, _n_, convert it to binary (base-2). Then find and print
 
 #### Solutions
 - [C](C/day-10.c)
+
+## Day 11: 2D Arrays
+Calculate the hourglass sum for every hourglass in _A_, then print the maximum hourglass sum.
+
+**Context**
+Given a _6_ X _6_  2D Array, _A_:
+
+```
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+```
+
+We define an hourglass in _A_ to be a subset of values with indices falling in this pattern in _A_'s graphical representation:
+
+```
+a b c
+  d
+e f g
+```
+
+**Sample Input**
+```
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 2 4 4 0
+0 0 0 2 0 0
+0 0 1 2 4 0
+```
+
+**Sample Output**
+```
+19
+```
+
+#### Solutions
+- [C](C/day-11.c)
+- [Python](Python/day-11.py)
