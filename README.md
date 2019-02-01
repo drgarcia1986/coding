@@ -2,6 +2,7 @@
 A collection of code snippets based on books, exercises, and experiments.
 
 ## Algorithms
+- [Search](/algorithms/search)
 - [Sort](/algorithms/sort)
 
 ## Books
