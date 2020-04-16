@@ -50,3 +50,9 @@ monitoring file descriptiors ready for inputs and outputs.
     - [Python](./python/server-epoll.py)
 * **[selectors](https://docs.python.org/3/library/selectors.html)** (python high-level I/O multiplexing interface)
     - [Python](./python/server-selectors.py)
+
+## Python Async Redis Client
+A very simple async redis client working on socket level with Python Asyncio Streams.
+
+### Implementation
+* [Python](./python/redis-client.py)
