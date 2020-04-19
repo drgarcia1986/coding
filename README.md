@@ -17,3 +17,4 @@ A collection of code snippets based on books, exercises, and experiments.
 - [Hacker Rank - C](/hacker-rank-c)
 - [Problem Solving](/problem-solving)
 - [Socket Programming](/socket-programming)
+- [Random Stuff](/random-stuff)
