@@ -41,11 +41,11 @@ class Command:
         self._args = args
 
     def chunks(self) -> Iterable[str]:
-        yield f'*{len(self._args)}\r\n'.encode()
+        yield f'*{len(self._args)}\r\n'
 
         for arg in self._args:
-            yield f'${len(arg)}\r\n'.encode()
-            yield f'{arg}\r\n'.encode()
+            yield f'${len(arg)}\r\n'
+            yield f'{arg}\r\n'
 
     def __iter__(self) -> Iterable[str]:
         return self.chunks()

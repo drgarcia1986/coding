@@ -32,16 +32,18 @@ class Redis:
         else:
             await self._send_data(dumps('SET', key, value))
         data = await self._read_data()
-        return True if not data.error_code else False
+        return not data.error_code
 
     async def get(self, key: str) -> str:
         await self._send_data(dumps('GET', key))
         data = await self._read_data()
-        return data.text if not data.error_code else data.error_code
+        if data.error_code:
+            raise RuntimeError(f'Can\'t get data from Redis. Key: [{key}], Error Code: [{data.error_code}]')
+        return data.text
 
     async def _send_data(self, cmd: Command):
-        for c in cmd.chunks():
-            self._writer.write(c)
+        for c in cmd:
+            self._writer.write(c.encode())
 
         await self._writer.drain()
 
