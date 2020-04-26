@@ -5,6 +5,9 @@ A collection of code snippets based on books, exercises, and experiments.
 - [Search](/algorithms/search)
 - [Sort](/algorithms/sort)
 
+## Data Structures
+- [Linked List](/data-structures)
+
 ## Books
 - [Computer Networking: A Top-Down Approach](/computer-networking-a-top-down-approach)
 - [The C Programming Language](/the-c-programming-language) WIP
