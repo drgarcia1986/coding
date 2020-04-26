@@ -4,11 +4,18 @@ from main import dumps, loads, Command, Response
 
 
 class Redis:
-    def __init__(self, address: str, port: int):
+    def __init__(self, address: str = '127.0.0.1', port: int = 6379):
         self.address = address
         self.port = port
         self._reader = None
         self._writer = None
+
+    async def __aenter__(self):
+        await self.connect()
+        return self
+
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        await self.close()
 
     async def connect(self) -> None:
         self._reader, self._writer = await asyncio.open_connection(
@@ -53,9 +60,3 @@ class Redis:
             data += chunk
 
         return loads(data.decode())
-
-
-async def new_redis(address: str = '127.0.0.1', port: int = 6379) -> Redis:
-    redis = Redis(address, port)
-    await redis.connect()
-    return redis
