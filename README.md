@@ -6,7 +6,8 @@ A collection of code snippets based on books, exercises, and experiments.
 - [Sort](/algorithms/sort)
 
 ## Data Structures
-- [Linked List](/data-structures)
+- [Linked List](/data-structures/linked-list)
+- [Double Linked List](/data-structures/double-linked-list)
 
 ## Books
 - [Computer Networking: A Top-Down Approach](/computer-networking-a-top-down-approach)
