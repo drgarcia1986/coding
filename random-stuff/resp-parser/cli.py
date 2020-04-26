@@ -48,15 +48,15 @@ class Redis:
     async def _read_data(self) -> Response:
         empty = b''
         data = b''
-        read_size = 100
-        timeout = 1
+        chunk_size = 128
+        timeout = 0.1
         while True:
             try:
-                chunk = await asyncio.wait_for(self._reader.read(read_size), timeout)
+                chunk = await asyncio.wait_for(self._reader.read(chunk_size), timeout)
             except asyncio.TimeoutError:
                 break
             if chunk == empty:
                 break
             data += chunk
 
-        return loads(data.decode())
+        return loads(data)
