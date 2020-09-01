@@ -25,3 +25,10 @@ A simple parser of [RESP protocol](https://redis.io/topics/protocol) than parse:
 And build a plain string into a redis request with RESP protocol.
 
 [source](./resp-parser/main.py)
+
+## Gzip On Requests and Response using Python, Lua and NGINX
+
+Two clients (sync and async) making requests with gzip and a Lua script to
+decompress data on Nginx side.
+
+[source](./gzip-api)

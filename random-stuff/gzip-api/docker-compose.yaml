@@ -1,0 +1,16 @@
+version: '3'
+services:
+  nginx:
+    image: drgarcia1986/nginx-lua:0.0.1
+    container_name: nginx
+    volumes:
+      - ./docker-lua/nginx.conf:/etc/nginx/nginx.conf
+      # - ./docker-lua/decompress.lua:/etc/lua/decompress.lua
+    ports:
+      - 80:80
+
+  echo-server:
+    image: echo-server:0.0.1
+    container_name: echo-server
+    expose:
+      - "8000"
