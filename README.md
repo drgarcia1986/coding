@@ -9,6 +9,9 @@ A collection of code snippets based on books, exercises, and experiments.
 - [Linked List](/data-structures/linked-list)
 - [Double Linked List](/data-structures/double-linked-list)
 
+## Design Patterns
+- [Observer](/design-patterns/observer/main.py)
+
 ## Books
 - [Computer Networking: A Top-Down Approach](/computer-networking-a-top-down-approach)
 - [The C Programming Language](/the-c-programming-language) WIP
