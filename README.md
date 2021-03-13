@@ -10,7 +10,8 @@ A collection of code snippets based on books, exercises, and experiments.
 - [Double Linked List](/data-structures/double-linked-list)
 
 ## Design Patterns
-- [Observer](/design-patterns/observer/main.py)
+- [Observer](/design-patterns/observer)
+- [Builder](/design-patterns/builder/builder.java)
 
 ## Books
 - [Computer Networking: A Top-Down Approach](/computer-networking-a-top-down-approach)
