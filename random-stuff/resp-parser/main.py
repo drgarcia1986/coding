@@ -7,10 +7,10 @@ Response(text=1000, error_code=None)
 Response(text='unknown command "foobar"', error_code='ERR')
 >>> loads('$6\\r\\nfoobar\\r\\n')
 Response(text='foobar', error_code=None)
->>> loads('&UNKNOW')
+>>> loads('&UNKNOWN')
 Traceback (most recent call last):
     ...
-InvalidResponse: Invalid response: &UNKNOW
+InvalidResponse: Invalid response: &UNKNOWN
 >>> dumps('SET', 'my_key', 'my_value')
 Command("SET my_key my_value")
 >>> list(dumps('SET', 'my_key', 'my_value').chunks())
@@ -71,12 +71,16 @@ _PARSERS = {
     '$': _parse_bulk_string,
 }
 
+
 def loads(msg: str) -> Response:
+    if msg.__class__ == bytes:
+        msg = msg.decode()
     msg_type = msg[0]
     parser = _PARSERS.get(msg_type)
     if not parser:
         raise InvalidResponse(msg)
     return parser(msg[1:])
+
 
 def dumps(command: str, *args: List[str]) -> Command:
     return Command(command, *args)
@@ -84,4 +88,5 @@ def dumps(command: str, *args: List[str]) -> Command:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
