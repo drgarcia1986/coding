@@ -1,5 +1,4 @@
-# Coding
-A collection of code snippets based on books, exercises, and experiments.
+# Coding A collection of code snippets based on books, exercises, and experiments.
 
 ## Algorithms
 - [Search](/algorithms/search)
@@ -15,7 +14,8 @@ A collection of code snippets based on books, exercises, and experiments.
 
 ## Books
 - [Computer Networking: A Top-Down Approach](/computer-networking-a-top-down-approach)
-- [The C Programming Language](/the-c-programming-language) WIP
+- [The C Programming Language](/the-c-programming-language)
+- [The Algorithms Design Manual](./the-algorithm-design-manual)
 
 ## Courses
 - [The Coding Interview Bootcamp: Algorithms + Data Structures](/the-coding-interview-bootcamp)
