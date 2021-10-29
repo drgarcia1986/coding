@@ -16,6 +16,7 @@
 - [Computer Networking: A Top-Down Approach](/computer-networking-a-top-down-approach)
 - [The C Programming Language](/the-c-programming-language)
 - [The Algorithms Design Manual](./the-algorithm-design-manual)
+- [Programming Pearls](./programming-pearls)
 
 ## Courses
 - [The Coding Interview Bootcamp: Algorithms + Data Structures](/the-coding-interview-bootcamp)
